@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText android:id="@+id/temp_converterText"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginVertical="40dp"
+        android:layout_gravity="center"
+        android:hint="@string/temp_converterText"/>
+    <RadioGroup android:id="@+id/conversion_RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/cels_to_fahr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cels_to_fahr"/>
+        <RadioButton android:id="@+id/fahr_to_cels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fahr_to_cels"/>
+    </RadioGroup>
+
+    <Button android:id="@+id/button_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_enter"
+        android:layout_marginVertical="40dp"
+        android:layout_gravity="center"
+        android:onClick="tempConverter"/>
+
+    <TextView android:id="@+id/conversion_message"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/border_style"
+        android:layout_marginBottom="180dp"
+        android:layout_gravity="center"
+        android:contentDescription="conversion result"
+        android:onClick="tempConverter"/>
+
+
+</LinearLayout>

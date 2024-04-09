@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity_map">
+
+
+    <EditText
+        android:id="@+id/location_text"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:autofillHints="text"
+        android:hint="@string/location_hint"
+        android:background="@drawable/border_style"
+        android:padding="8dp"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginVertical="30dp"
+        android:onClick="position"
+        android:backgroundTint="@color/bluea"
+        android:text="@string/mapSearch_button" />
+
+</LinearLayout>

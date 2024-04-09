@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="bluec">#0A84FF</color>
+    <color name="bluea">#007AFF</color>
+    <color name="red">#FF453A</color>
+    <color name="redPantonee">#BA0C2E</color>
+    <color name="purle">#8944AB</color>
+    <color name="green">#33C458</color>
+    <color name="pink">#FF6482</color>
+</resources>

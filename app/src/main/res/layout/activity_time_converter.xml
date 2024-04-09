@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_time_converter">
+
+    <EditText android:id="@+id/time_converterText"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:inputType="number"
+        android:layout_marginTop="40dp"
+        android:layout_marginVertical="40dp"
+        android:layout_gravity="center"
+        android:hint="@string/time_converterText"/>
+    <RadioGroup android:id="@+id/timeConversion_RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/hour_to_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/hour_to_min"/>
+        <RadioButton android:id="@+id/hour_to_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/hour_to_sec"/>
+        <RadioButton android:id="@+id/min_to_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/min_to_hour"/>
+        <RadioButton android:id="@+id/min_to_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/min_to_sec"/>
+        <RadioButton android:id="@+id/sec_to_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/sec_to_min"/>
+        <RadioButton android:id="@+id/sec_to_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/sec_to_hour"/>
+
+    </RadioGroup>
+
+    <Button   android:id="@+id/button_enter2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/button_enter"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:onClick="timeConverter"/>
+
+    <TextView  android:id="@+id/time_converted"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:contentDescription="conversion result"
+        android:background="@drawable/border_style"
+        android:layout_marginBottom="40dp"
+        android:onClick="timeConverter"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MonExam</string>
+    <string name="start_button">MON AGENDA</string>
+    <string name="converter_button">CONVERTISSEUR</string>
+    <string name="contact_button">CONTACTS</string>
+    <string name="image_button">TELECHARGEUR D\'IMAGES</string>
+    <string name="utils_button">MES UTILITAIRES</string>
+    <string name="map_button">CARTE</string>
+    <string name="calc_button">CALCULATRICE</string>
+    <string name="start2_button">MES ALLIES</string>
+    <string name="temp_converter_button">CONVERTISSEUR DE TEMPERATURE</string>
+    <string name="time_converter_button">CONVERTISSEUR DE TEMPS</string>
+    <string name="currency_converter_button">CONVERTISSEUR DE DEVISE</string>
+    <string name="temp_converterText">ENTRER LA TEMPERATURE</string>
+    <string name="cels_to_fahr">DE CELSIUS A FAHRENHEIT</string>
+    <string name="fahr_to_cels">DE FAHRENHEIT A CELSIUS</string>
+    <string name="button_enter">ENVOYER</string>
+    <string name="hour_to_min">D\'HEURES A MINUTES</string>
+    <string name="hour_to_sec">D\'HEURES A SECONDES</string>
+    <string name="min_to_sec">DE MINUTES A SECONDES</string>
+    <string name="min_to_hour">DE MINUTES A HEURES</string>
+    <string name="sec_to_min">DE SECONDES A MINUTES</string>
+    <string name="sec_to_hour">DE SECONDES A HEURES</string>
+    <string name="time_converterText">SAISIR UN NOMBRE</string>
+    <string name="curr_converterText">INSERER LE MONTANT</string>
+    <string name="eur_to_cad">DE EURO A DOLLAR CANADIEN</string>
+    <string name="eur_to_usd">DE EURO A DOLLAR US</string>
+    <string name="eur_to_ster">DE EURO A STERLING</string>
+    <string name="eur_to_itl">DE EURO LIRE ITALIENNE</string>
+    <string name="eur_to_fcfa">DE EURO FRANC CFA</string>
+    <string name="button_browser">BROWSER</string>
+    <string name="button_mail">E-MAIL</string>
+    <string name="browser_hint">URL</string>
+    <string name="email_hint">Addresse Mail:</string>
+    <string name="email_subject_hint">Objet:</string>
+    <string name="email_text_hint">Texte Ici</string>
+    <string name="button_send">ENVOYER</string>
+    <string name="location_hint">Emplacement</string>
+    <string name="mapSearch_button">Trouver</string>
+    <string name="download_button">TELECHARGER</string>
+    <string name="download_hint">url image:</string>
+    <string name="download_title">TELECHARGEMENT D\'IMAGE</string>
+    <string name="button_1_description">button 1</string>
+    <string name="calc_hint">Ecran</string>
+    <string name="exe_button">EXECUTER</string>
+    <string name="result">Résultat</string>
+    <string name="v1_viewButton">Visualiser</string>
+    <string name="c1_activity_title">Liste Contacts</string>
+    <string name="c1_name">Nom</string>
+    <string name="c1_email">E-mail</string>
+    <string name="c1_phone">Téléphone</string>
+    <string name="c1_saveButton">Sauvegarder</string>
+    <string name="c1_clearButton">Effacer</string>
+    <string name="clear_button">AC</string>
+    <string name="delete_button">⌫</string>
+    <string name="percent_button">%</string>
+    <string name="division_button">/</string>
+    <string name="multiplication_button">*</string>
+    <string name="substraction_button">-</string>
+    <string name="addition_button">+</string>
+    <string name="equal_button">=</string>
+    <string name="decimal_button">.</string>
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity_currency_converter">
+
+    <EditText android:id="@+id/currencyText"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="@string/curr_converterText"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="numberDecimal"/>
+    <RadioGroup android:id="@+id/currency_RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/eur_cad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/eur_to_cad" />
+        <RadioButton android:id="@+id/eur_usd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/eur_to_usd" />
+        <RadioButton android:id="@+id/eur_ster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/eur_to_ster" />
+        <RadioButton android:id="@+id/eur_itl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/eur_to_itl" />
+        <RadioButton android:id="@+id/eur_fcfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/eur_to_fcfa" />
+    </RadioGroup>
+
+    <Button  android:id="@+id/button_enter3"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/button_enter"
+        android:layout_marginVertical="20dp"
+        android:layout_gravity="center"
+        android:onClick="currConverter"/>
+    <TextView android:id="@+id/currency_converted"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:contentDescription="conversion result"
+        android:background="@drawable/border_style"
+        android:onClick="currConverter"/>
+
+</LinearLayout>

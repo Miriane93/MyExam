@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity_utils">
+
+    <CalendarView  android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="40dp"/>
+
+    <ImageView android:id="@+id/browser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/calendar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="120dp"
+        android:src="@drawable/browser"
+        android:contentDescription="@string/button_browser"
+        android:onClick="browser"/>
+
+    <ImageView android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/calendar"
+        android:layout_toRightOf="@id/browser"
+        android:contentDescription="@string/button_mail"
+        android:src="@drawable/email"
+        android:onClick="email"/>
+
+
+
+
+</RelativeLayout>

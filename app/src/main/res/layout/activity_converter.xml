@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity_converter">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="40dp"
+        android:backgroundTint="@color/redPantonee"
+        android:text="@string/temp_converter_button"
+        android:onClick="converterTemp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="40dp"
+        android:backgroundTint="@color/goldenrod"
+        android:text="@string/time_converter_button"
+        android:onClick="converterTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="40dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/currency_converter_button"
+        android:onClick="converterCurr"/>
+
+</LinearLayout>
